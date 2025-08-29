@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: #fff;
+  max-width: 800px;
+  width: 100%;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header */
+header {
+  border-bottom: 4px solid #d9534f; /* dòng kẻ đỏ nổi bật */
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+header h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff0000;
+  margin: 5px 0;
+}
+
+header p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Sections */
+section {
+  margin-bottom: 25px;
+}
+
+section h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+/* Dòng kẻ trong section */
+hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 5px 0 10px 0;
+}
+
+/* Job */
+.job {
+  margin-bottom: 15px;
+}
+
+.job p {
+  font-size: 14px;
+  color: #444;
+  margin: 2px 0;
+}
+
+ul {
+  margin-top: 5px;
+  margin-left: 20px;
+  list-style: disc;
+  font-size: 14px;
+  color: #444;
+}
