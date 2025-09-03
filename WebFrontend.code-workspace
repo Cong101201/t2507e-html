@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "WebFrontend",
+			"path": "../../../Documents/WebFrontend"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WebFrontend"
+	}
+}

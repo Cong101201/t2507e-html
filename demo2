@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Dothanhcong</title>
+    <link rel="stylesheet" href="css/stylebtvn2.css">
+</head>
+<body>
+    <div>
+        <img src="img/anh1.jpg" alt="Ảnh cá nhân" class="avatar">
+        <h1></h1>
+        <p></p>
+        <botton>Download CV</botton>
+    </div>
+        <div class="special">
+        <img src="img/anh1.jpg" alt="Ảnh cá nhân" class="avatar">
+        <h1></h1>
+        <p></p>
+        <botton>Download CV</botton>
+</body>

@@ -1,0 +1,18 @@
+h1{
+    /* chi dinh thuoc tinh cho h1 */
+    color: red;
+}
+p{
+    /* chi dinh thuoc tinh cho p */
+    color: #008000;
+    font-size: 18px;/* kich co chu */
+    font-family: Arial, Helvetica, sans-serif; /* font chu */
+    text-align: left; /* canh le trai */
+    line-height: 1.5; /* chieu cao dong, khoang cach giua cac dong  1.5*15px= */
+    text-transform: none; /* chuyen doi chu hoa, chu thuong, viet hoa dau moi tu */
+    text-decoration: none; /* gach chan, gach ngang, gach tren */
+    font-weight: 400; /* do dam, mong, binh thuong thin light normal medium (100, 200,..900)*/
+    word-spacing: 2px; /* khoang cach giua cac tu */
+    letter-spacing: 2px; /* khoang cach giua cac chu */ 
+    border-bottom 1px solid #008000; /* gach chan */
+}
