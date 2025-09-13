@@ -1,0 +1,152 @@
+/* ========== HEADER ========== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.Menu {
+  display: flex;
+  gap: 20px;
+}
+
+.Menu p {
+  cursor: pointer;
+  margin: 0;
+}
+
+.Menu p:hover {
+  color: #666;
+}
+
+/* ========== SẢN PHẨM (ảnh + chi tiết) ========== */
+.sanpham {
+  display: flex;
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 20px 0;
+}
+
+/* Bên trái: 4 ảnh */
+.anh {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.anh img {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+/* Bên phải: chữ nối dọc */
+.noidung {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.chitiet h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.chitiet p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.chitiet button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.chitiet button:hover {
+  background: #444;
+}
+
+.meta {
+  font-size: 13px;
+  color: #555;
+}
+
+.tabs {
+  display: flex;
+  gap: 15px;
+}
+
+.tab {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.tab:hover {
+  background: #f3f3f3;
+}
+
+.tab-content {
+  font-size: 14px;
+  color: #333;
+}
+
+/* ========== RELATED ========== */
+.related {
+  max-width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.related h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 180px;
+  padding: 10px;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.item h4 {
+  font-size: 14px;
+  margin: 5px 0
+}
+
+.item p {
+  font-size: 13px;
+  color: #333;
+}
+/* ========== LOGO ========== */
+.LOGO img {
+  height: 40px;
+  width: auto;
+  cursor: pointer;
+}
