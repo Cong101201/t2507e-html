@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,7 @@ body {
   line-height: 1.6;
 }
 
-/* ===== HEADER ===== */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -47,7 +46,6 @@ body {
   transform: translateY(-2px);
 }
 
-/* ===== PRODUCT SECTION ===== */
 .sanpham {
   display: flex;
   gap: 40px;
@@ -55,7 +53,6 @@ body {
   align-items: flex-start;
 }
 
-/* ảnh sản phẩm */
 .anh {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -75,7 +72,6 @@ body {
   transform: scale(1.05);
 }
 
-/* nội dung sản phẩm */
 .noidung {
   flex: 1;
   display: flex;
@@ -151,7 +147,6 @@ body {
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
-/* ===== RELATED PRODUCTS ===== */
 .related {
   padding: 60px;
   background: #fafafa;
@@ -202,7 +197,6 @@ body {
   box-shadow: 0 6px 18px rgba(0,0,0,0.1);
 }
 
-/* ===== FOOTER ===== */
 footer {
   background: #111;
   color
