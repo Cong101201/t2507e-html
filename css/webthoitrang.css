@@ -117,7 +117,6 @@ body {
   color: #444;
 }
 
-
 .tabs {
   display: flex;
   gap: 15px;
@@ -199,5 +198,14 @@ body {
 
 footer {
   background: #111;
-  color
+  color: #bbb;
+  padding: 30px 60px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 50px;
+  border-top: 2px solid #222;
+}
+
+footer p {
+  margin: 5px 0;
 }
