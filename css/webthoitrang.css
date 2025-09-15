@@ -107,7 +107,7 @@ body {
   background: #d35400;
 }
 
-/* meta sản phẩm */
+
 .meta {
   padding: 15px;
   border: 1px solid #ddd;
@@ -117,7 +117,7 @@ body {
   color: #444;
 }
 
-/* tabs */
+
 .tabs {
   display: flex;
   gap: 15px;
@@ -200,4 +200,4 @@ body {
 footer {
   background: #111;
   color
-
+}
